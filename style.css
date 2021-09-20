@@ -3,10 +3,74 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
+    background: url('images/pattern-background-desktop.svg') no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.page-card {
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 450px;
+    margin: 70px;
+    text-align: center;
+}
+
+.card-header img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-article {
+    padding: 20px 45px;
+}
+
+.card-article h1 {
+    margin-bottom: 10px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.order-text {
+    color: hsl(224, 23%, 55%);
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.order-plan {
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    width: 100%;
+    padding: 10px;
+    margin: 25px 0 ;
+    border-radius: 10px;
+    outline: none;
+}
+
+.order-cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+
 }
